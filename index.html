@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <header>
+        <div class="container flex space-between align-center">
+            <h1 class="gothic color-theme">Wikitube</h1>
+            <form action="#" onsubmit="renderSearchResults();return false">
+                <input id="search-input" type="text" />
+                <input type="submit" value="Search" />
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container flex space-around align-start">
+            <ul class="search-result clean-list">
+                <!-- list of results youtube -->
+            </ul>
+            <div class="right-content flex flex-column align-center">
+                <iframe class="color-theme" width="450" height="345"
+                    src="">
+                </iframe>
+                <section>
+                    <ul class="clean-list">
+                        <!-- list of results wiki -->
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js" ></script>
+</body>
+
+</html>
