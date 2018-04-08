@@ -37,7 +37,7 @@ html {
 
 body {
     margin: 0 auto;
-    background-image: url("../img/BG.jpg");
+    background-image: url("../../img/BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
